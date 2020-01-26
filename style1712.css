@@ -1,0 +1,96 @@
+body {
+    background: salmon;
+    background: var(--background);
+    color: var(--text-color);
+  }
+  .container {
+    text-align: center;
+    border: 2px solid white;
+    width: 500px;
+    margin: 0 auto;
+    background: #f4f2fc;
+    padding: 10px;
+    padding: 25px;
+    border-radius: 5px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    margin-bottom: 10px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+  }
+  .inputTitle{
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    background: #f4f2fc;
+  }
+  .inputTitle:focus{
+    background: #fff;
+  }
+  .inputBody{
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    background: #f4f2fc;
+    padding: 3px;
+    font-size: 13px;
+    flex: 1;
+  }
+  .inputBody:focus{
+    background: #fff;
+  }
+  .btn {
+    border: 1px solid #fff;
+    background: #dcdcdc;
+    border-radius: 5px;
+    margin-left: 3px;
+  }
+  .btn:hover {
+    background: #0088ff;
+    color: #fff;
+    border: 1px solid #0088ff;
+  }
+  .input-wrapper{
+    display: flex;
+    width: 100%;
+  }
+
+  .icon-plus{
+    color: #fff;
+
+  }
+
+  .list{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+
+  }
+  .item{
+    margin: 5px 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    background: #e0e8f5;
+  }
+
+  .title{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+  }
+
+  .article{
+margin: 0;
+padding: 0;
+  }
+
+  html{
+    background: var(--background);
+    color: var(--text-color);
+  }
+
